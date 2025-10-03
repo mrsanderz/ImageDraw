@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub 圖片隨機抽</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>隨機圖片抽取器</h1>
+        <p>從 mrsanderz/ImgRepo 圖庫中隨機抽一張圖</p>
+        
+        <div id="image-container">
+            <p id="loading-text">載入圖片列表中...</p>
+            <img id="random-image" src="" alt="抽出的圖片將顯示在這裡">
+        </div>
+        
+        <button id="draw-button" disabled>請稍候</button>
+        
+        <p id="image-info"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
